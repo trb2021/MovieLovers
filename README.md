@@ -1,2 +1,2 @@
 # MovieLovers
-Proyecto para practicar maquetación con HTML y CSS, además de consumir una API REST utilizando Javascript.
+Project to practice layout with HTML and CSS, in addition to consuming a REST API using Javascript.
