@@ -1,0 +1,27 @@
+{
+  "name": "movielovers",
+  "version": "1.0.0",
+  "description": "Project to practice layout with HTML and CSS, in addition to sonsuming a REST API with Javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trb2021/MovieLovers.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "movies",
+    "REST",
+    "API"
+  ],
+  "author": "Tomás Rodríguez Barrios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trb2021/MovieLovers/issues"
+  },
+  "homepage": "https://github.com/trb2021/MovieLovers#readme"
+}
