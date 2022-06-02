@@ -13,6 +13,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Navbar -->
@@ -21,12 +25,60 @@
       <div class="bx bx-menu" id="menu-icon"></div>
       <!-- Menu -->
       <ul class="navbar">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home" class="home-active">Home</a></li>
         <li><a href="#movies">Movies</a></li>
         <li><a href="#coming">Coming</a></li>
         <li><a href="#newsletter">Newsletter </a></li>
       </ul>
       <a href="#" class="btn">Sign In</a>
     </header>
+    <!-- Home -->
+    <section id="home" class="home swiper">
+      <!-- Swiper -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide container">
+          <img src="./assets/home1.jpg" alt="">
+          <div class="home-text">
+            <span>Marvel Universe</span>
+            <h1>Venom: Let There <br> Be Carnage</h1>
+            <a href="#" class="btn">Book now</a>
+            <a href="#" class="play">
+              <i class='bx bx-play'></i>
+            </a>
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div class="swiper-slide container">
+          <img src="./assets/home2.jpg" alt="">
+          <div class="home-text">
+            <span>Marvel Universe</span>
+            <h1>Avengers: <br> Infinity War</h1>
+            <a href="#" class="btn">Book now</a>
+            <a href="#" class="play">
+              <i class='bx bx-play'></i>
+            </a>
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div class="swiper-slide container">
+          <img src="./assets/home3.jpg" alt="">
+          <div class="home-text">
+            <span>Marvel Universe</span>
+            <h1>Spider-Man: <br> Far from Home</h1>
+            <a href="#" class="btn">Book now</a>
+            <a href="#" class="play">
+              <i class='bx bx-play'></i>
+            </a>
+          </div>
+        </div>        
+      </div>      
+      <div class="swiper-pagination"></div>
+    
+    </section>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Link To Custom JS -->
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
