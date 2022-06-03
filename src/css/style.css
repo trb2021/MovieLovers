@@ -227,4 +227,15 @@ header {
     font-size: 13px;
 }
 
+/*  Coming section styles */ 
+.coming-container {
+    display: grid;
+    gap: 1rem;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+
 
