@@ -18,6 +18,16 @@
     --bg-color: #fff;    
 }
 
+/* Custom scroll bar */
+html::-webkit-scrollbar{
+    width: 0.2rem;
+    background: var(--text-color);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
 
 /* General styles */
 body {
@@ -44,6 +54,7 @@ header {
 
 header.shadow {
     background: var(--bg-color);
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
 
 header.shadow a {
