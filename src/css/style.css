@@ -237,5 +237,54 @@ header {
     margin-top: 2rem;
 }
 
+/* NewsLetter section styles */ 
+.newsletter {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+}
+
+.newsletter h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.newsletter form {
+    background: var(--bg-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;    
+}
+
+.newsletter form input{
+    border: none;
+    outline: none;
+}
+
+.newsletter form .email {
+    width: 240px;
+}
+
+.newsletter form input::placeholder {
+    color: var(--text-color);
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.newsletter .btn {
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
 
 
